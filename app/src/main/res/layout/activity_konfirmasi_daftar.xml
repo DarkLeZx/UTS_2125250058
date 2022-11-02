@@ -10,17 +10,37 @@
         android:id="@+id/tv_Judul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="KONFRIMASI PENDAFTARAN"
+        android:text="KONFIRMASI PENDAFTARAN"
         android:textStyle="bold"
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"/>
-<!--    <TableLayout-->
-<!--        android:id="@+id/tl_konfirmasi"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_below="@id/tv_Judul"-->
-<!--        >-->
 
+    <TextView
+        android:id="@+id/tv_Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tv_Judul"/>
+
+    <TextView
+        android:id="@+id/tv_Nomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Pendaftaran"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tv_Nama"/>
+
+    <TextView
+        android:id="@+id/tv_Jalur_Pend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jalur Pendaftaran"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tv_Nomor"/>
 
 </RelativeLayout>
