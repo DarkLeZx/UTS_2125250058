@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">UTS_2125250058</string>
+    <string-array name="arr_Jalur_Pend">
+        <item>Jalur Pendaftaran</item>
+        <item>Test Tertulis</item>
+        <item>Jalur Tanpa Tes</item>
+        <item>Ujian Saringan Masuk</item>
+
+    </string-array>
 </resources>
