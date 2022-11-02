@@ -43,8 +43,8 @@ private Button btnDaftar;
                     etNama.setError("Nama Belum Di Isi !!!");
                 } else if (nomor.trim().isEmpty()) {
                     etNomor.setError("Nomor Pendaftaran Belum Di Isi !!!");
-                } else if (jalur.trim().isEmpty() && jalur.equals("Jalur Pendaftaran")) {
-                    Toast.makeText(MainActivity.this, "Mohon Pilih Salah Satu", Toast.LENGTH_SHORT).show();
+                } else if (jalur.trim().isEmpty() || jalur.equals("Jalur Pendaftaran")) {
+                    Toast.makeText(MainActivity.this, "Mohon Pilih Jalur Pendaftaran Yang Tersedia !!!", Toast.LENGTH_SHORT).show();
                 }
                 else if (konfirmasi != true)
                 {
